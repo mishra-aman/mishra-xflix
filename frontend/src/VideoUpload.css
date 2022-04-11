@@ -1,0 +1,12 @@
+.cancel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 6px;
+    width: 74px;
+  }

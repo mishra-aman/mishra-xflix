@@ -1,0 +1,60 @@
+search-desktop {
+    display: none;
+    width: 50%;
+}
+@media only screen and (min-width: 600px) {
+    .search-desktop {
+        display: block;
+    }
+    .search-mobile {
+        display: none;
+    }
+}
+.content-rating-btn{
+    margin: 0.25rem;
+    color:#fff;
+    padding:0.5rem;
+    min-width:3rem;
+    text-align: center;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.content-rating-btn:hover{
+    background-color: #808080;
+}
+.genre-btn{
+    margin: 0.25rem;
+    color:#fff;
+    padding:0.5rem;
+    min-width:3rem;
+    text-align: center;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.genre-btn:hover{
+    background-color: #808080;
+}
+.active {
+    background-color: #FFFFFF;
+    color: #000;
+}
+.active:hover {
+    background-color: #FFFFFF;
+    color: #000;
+}
+.form-element .MuiSelect-select .MuiSvgIcon-root{
+    color: rgba(255, 255, 255, 0.87) !important;
+  }
+.form-element fieldset {
+    border-color: rgba(255, 255, 255, 0.38) !important;
+}
+#sort {
+    background-color: #FFFFFF;
+    color: #000;
+    padding:  0.25rem 2rem;
+    margin : 0.25rem 0.25rem;
+    border-radius: 1rem;
+}
+.dashboard{
+    background-color: rgba(14, 1, 1, 0.911)
+}
